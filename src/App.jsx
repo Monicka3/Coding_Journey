@@ -1,12 +1,15 @@
-import Greetings from "./greetings"; 
+import { useState } from "react";
+import Bulb from "./Components/bulb";
+import Count from "./Components/count";
 
-function App(){
-    return(
-        <>
-        <h1>Welcome to my coding journey</h1>
-        <Greetings name={"Idiot"}></Greetings>
-        </>
-    );
+function App() {
+  return (
+    <>
+      <Bulb></Bulb>
+      <Bulb></Bulb>
+      <Bulb></Bulb>
+      <Count></Count>
+    </>
+  );
 }
-
 export default App;
